@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSimDocument Version="40000">
+	<ControlSet name="gait2354_CMC">
+		<defaults>
+			<ControlLinear name="default">
+				<is_model_control>true</is_model_control>
+				<extrapolate>true</extrapolate>
+				<default_min>0,02</default_min>
+				<default_max>1</default_max>
+				<filter_on>false</filter_on>
+				<use_steps>true</use_steps>
+				<x_nodes />
+				<min_nodes />
+				<max_nodes />
+				<kp>100</kp>
+				<kv>20</kv>
+			</ControlLinear>
+		</defaults>
+		<objects>
+			<ControlLinear name="FX.excitation">
+				<default_min>-1</default_min>
+				<default_max>1</default_max>
+				<use_steps>false</use_steps>
+			</ControlLinear>
+			<ControlLinear name="FY.excitation">
+				<default_min>-1</default_min>
+				<default_max>1</default_max>
+				<use_steps>false</use_steps>
+			</ControlLinear>
+			<ControlLinear name="FZ.excitation">
+				<default_min>-1</default_min>
+				<default_max>1</default_max>
+				<use_steps>false</use_steps>
+			</ControlLinear>
+			<ControlLinear name="MX.excitation">
+				<default_min>-1</default_min>
+				<default_max>1</default_max>
+				<use_steps>false</use_steps>
+			</ControlLinear>
+			<ControlLinear name="MY.excitation">
+				<default_min>-1</default_min>
+				<default_max>1</default_max>
+				<use_steps>false</use_steps>
+			</ControlLinear>
+			<ControlLinear name="MZ.excitation">
+				<default_min>-1</default_min>
+				<default_max>1</default_max>
+				<use_steps>false</use_steps>
+			</ControlLinear>
+
+
+			<ControlLinear name="hip_flexion_r_reserve.excitation">
+				<default_min>-1000</default_min>
+				<default_max>1000</default_max>
+			</ControlLinear>
+			<ControlLinear name="hip_adduction_r_reserve.excitation">
+				<default_min>-1000</default_min>
+				<default_max>1000</default_max>
+			</ControlLinear>
+			<ControlLinear name="hip_rotation_r_reserve.excitation">
+				<default_min>-1000</default_min>
+				<default_max>1000</default_max>
+			</ControlLinear>
+			<ControlLinear name="knee_angle_r_reserve.excitation">
+				<default_min>-1000</default_min>
+				<default_max>1000</default_max>
+			</ControlLinear>
+			<ControlLinear name="ankle_angle_r_reserve.excitation">
+				<default_min>-1000</default_min>
+				<default_max>1000</default_max>
+			</ControlLinear>
+			<ControlLinear name="hip_flexion_l_reserve.excitation">
+				<default_min>-1000</default_min>
+				<default_max>1000</default_max>
+			</ControlLinear>
+			<ControlLinear name="hip_adduction_l_reserve.excitation">
+				<default_min>-1000</default_min>
+				<default_max>1000</default_max>
+			</ControlLinear>
+			<ControlLinear name="hip_rotation_l_reserve.excitation">
+				<default_min>-1000</default_min>
+				<default_max>1000</default_max>
+			</ControlLinear>
+			<ControlLinear name="knee_angle_l_reserve.excitation">
+				<default_min>-1000</default_min>
+				<default_max>1000</default_max>
+			</ControlLinear>
+			<ControlLinear name="ankle_angle_l_reserve.excitation">
+				<default_min>-1000</default_min>
+				<default_max>1000</default_max>
+			</ControlLinear>
+
+
+			<ControlLinear name="lumbar_extension_reserve.excitation">
+				<default_min>-1000</default_min>
+				<default_max>1000</default_max>
+			</ControlLinear>
+			<ControlLinear name="lumbar_bending_reserve.excitation">
+				<default_min>-1000</default_min>
+				<default_max>1000</default_max>
+			</ControlLinear>
+			<ControlLinear name="lumbar_rotation_reserve.excitation">
+				<default_min>-1000</default_min>
+				<default_max>1000</default_max>
+			</ControlLinear>
+
+
+			<ControlLinear name="glut_med1_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_med2_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_med3_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_min1_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_min2_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_min3_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="semimem_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="semiten_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="bifemlh_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="bifemsh_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="sar_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="add_long_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="add_brev_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="add_mag1_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="add_mag2_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="add_mag3_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="tfl_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="pect_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="grac_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_max1_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_max2_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_max3_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="iliacus_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="psoas_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="quad_fem_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="gem_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="peri_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="rect_fem_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="vas_med_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="vas_int_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="vas_lat_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="med_gas_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="lat_gas_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="soleus_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="tib_post_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="flex_dig_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="flex_hal_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="tib_ant_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="per_brev_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="per_long_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="per_tert_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="ext_dig_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="ext_hal_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="ercspn_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="intobl_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="extobl_r.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_med1_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_med2_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_med3_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_min1_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_min2_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_min3_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="semimem_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="semiten_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="bifemlh_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="bifemsh_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="sar_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="add_long_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="add_brev_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="add_mag1_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="add_mag2_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="add_mag3_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="tfl_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="pect_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="grac_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_max1_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_max2_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="glut_max3_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="iliacus_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="psoas_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="quad_fem_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="gem_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="peri_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="rect_fem_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="vas_med_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="vas_int_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="vas_lat_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="med_gas_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="lat_gas_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="soleus_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="tib_post_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="flex_dig_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="flex_hal_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="tib_ant_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="per_brev_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="per_long_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="per_tert_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="ext_dig_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="ext_hal_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="ercspn_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="intobl_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+			<ControlLinear name="extobl_l.excitation">
+				<!--All properties of this object have their default values.-->
+			</ControlLinear>
+		</objects>
+	</ControlSet>
+</OpenSimDocument>

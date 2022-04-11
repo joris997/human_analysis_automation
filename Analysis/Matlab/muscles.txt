@@ -1,0 +1,170 @@
+Muscles in model
+
+glut_max1_r     gluteus maximus 1
+glut_max2_r     gluteus maximus 2
+glut_max3_r     gluteus maximus 3
+glut_med1_r     gluteus medius 1
+glut_med2_r     gluteus medius 2
+glut_med3_r     gluteus medius 3
+glut_min1_r     gluteus minimus 1
+glut_min2_r     gluteus minimus 2
+glut_min3_r     gluteus minimus 3
+semimem_r       semimembranosus
+semiten_r       semitendinosus
+bifemlh_r       biceps femoris m. long head
+bifemsh_r       biceps femoris m. short head
+sar_r           sartorius
+add_long_r      adductor longus
+add_brev_r      adductor brevis
+add_mag1_r      adductor magnus 1
+add_mag2_r      adductor magnus 2
+add_mag3_r      adductor magnus 3
+tfl_r           tensor fasciae latae
+pect_r          pectineus
+grac_r          gracilis
+iliacus_r       iliacus
+psoas_r         psoas
+quad_fem_r      quadriceps femoris
+gem_r           inferior gemelius
+peri_r          periformus
+rect_fem_r      rectus femoris
+vas_med_r       vastus medialis
+vas_int_r       vastus intermedius
+vas_lat_r       vastus lateralis
+med_gas_r       medial gastrocnemius   
+lat_gas_r       lateral gastrocnemius
+soleus_r        soleus
+tib_post_r      tibialis posterior
+flex_dig_r      flexor digitorum
+flex_hal_r      flexor hallucis
+tib_ant_r       tibialis anterior
+per_brev_r      petroneus brevis
+per_long_r      petroneus longus
+per_tert_r      petroneus tertius
+ext_dig_r       extensor digitorum
+ext_hal_r       extensor hallucis
+
+
+
+
+
+Hip Abduction
+glut_max1_r     gluteus maximus 1
+glut_med1_r     gluteus medius 1
+glut_med2_r     gluteus medius 2
+glut_med3_r     gluteus medius 3
+glut_min1_r     gluteus minimus 1
+glut_min2_r     gluteus minimus 2
+glut_min3_r     gluteus minimus 3
+peri_r          periformus
+sar_r           sartorius
+tfl_r           tensor fasciae latae
+
+
+Hip Flexion
+add_long_r      adductor longus
+add_brev_r      adductor brevis
+glut_med1_r     gluteus medius 1
+glut_min1_r     gluteus minimus 1
+grac_r          gracilis
+iliacus_r       iliacus
+pect_r          pectineus
+psoas_r         psoas
+rect_fem_r      rectus femoris
+sar_r           sartorius
+tfl_r           tensor fasciae latae
+
+
+Hip Inrotation
+glut_med1_r     gluteus medius 1
+glut_min1_r     gluteus minimus 1
+iliacus_r       iliacus
+psoas_r         psoas
+tfl_r           tensor fasciae latae
+
+
+Hip Exorotation
+gem_r           inferior gemelius
+glut_med3_r     gluteus medius 3
+glut_min3_r     gluteus minimus 3
+peri_r          periformus
+quad_fem_r      quadriceps femoris
+
+
+Hip Extension
+add_long_r      adductor longus
+add_mag1_r      adductor magnus 1
+add_mag2_r      adductor magnus 2
+add_mag3_r      adductor magnus 3
+bifemlh_r       biceps femoris m. long head
+glut_max1_r     gluteus maximus 1
+glut_max2_r     gluteus maximus 2
+glut_max3_r     gluteus maximus 3
+glut_med3_r     gluteus medius 3
+glut_min3_r     gluteus minimus 3
+semimem_r       semimembranosus
+semiten_r       semitendinosus
+
+
+Hip Adduction
+add_long_r      adductor longus
+add_brev_r      adductor brevis
+add_mag1_r      adductor magnus 1
+add_mag2_r      adductor magnus 2
+add_mag3_r      adductor magnus 3
+bifemlh_r       biceps femoris m. long head
+grac_r          gracilis
+pect_r          pectineus
+semimem_r       semimembranosus
+semiten_r       semitendinosus
+
+
+Knee Flexion
+bifemlh_r       biceps femoris m. long head
+bifemsh_r       biceps femoris m. short head
+grac_r          gracilis
+lat_gas_r       lateral gastrocnemius
+med_gas_r       medial gastrocnemius 
+sar_r           sartorius
+semimem_r       semimembranosus
+semiten_r       semitendinosus
+
+
+Knee Extension
+rect_fem_r      rectus femoris
+vas_med_r       vastus medialis
+vas_int_r       vastus intermedius
+vas_lat_r       vastus lateralis
+
+
+Ankle Plantarflexion
+flex_dig_r      flexor digitorum
+flex_hal_r      flexor hallucis
+lat_gas_r       lateral gastrocnemius
+med_gas_r       medial gastrocnemius 
+per_brev_r      petroneus brevis
+per_long_r      petroneus longus
+soleus_r        soleus
+tib_post_r      tibialis posterior
+
+
+Ankle Inverter
+ext_hal_r       extensor hallucis
+flex_dig_r      flexor digitorum
+flex_hal_r      flexor hallucis
+tib_ant_r       tibialis anterior
+tib_post_r      tibialis posterior
+
+
+Ankle Dorsiflexion
+ext_dig_r       extensor digitorum
+ext_hal_r       extensor hallucis
+per_tert_r      petroneus tertius
+tib_ant_r       tibialis anterior
+
+
+Ankle Everter
+ext_dig_r       extensor digitorum
+per_brev_r      petroneus brevis
+per_long_r      petroneus longus
+per_tert_r      petroneus tertius
